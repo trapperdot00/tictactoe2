@@ -1,10 +1,5 @@
 #include <iostream>
-/*
-*		indexing	|	user input
-*		0 1 2		|	1 2 3
-*		3 4 5		|	4 5 6
-*		6 7 8		|	7 8 9
-*/
+
 class Board {
 public:
 	bool isPlayer1 = true;
@@ -67,7 +62,7 @@ public:
 			std::cout << std::endl << "The match ends in a draw." << std::endl;
 		}
 	}
-
+	// AAA
 	int player1ChooseSquare() {
 		int choice = -1;
 		std::cout << "X)  Choose a square: ";
@@ -161,6 +156,7 @@ public:
 };
 
 int main() {
+	const int hatvankilenc = 69;
 	Board board;
 	board.startMessage();
 	board.roundControl();
