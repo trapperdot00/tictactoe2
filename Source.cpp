@@ -5,7 +5,8 @@ public:
 	bool isPlayer1 = true;
 	int squareInfo[9] ={0, 0, 0,	// 0 if noone is on square 1:X 2:O
 						0, 0, 0,
-						0, 0, 0};
+						0, 0, 0
+	};
 	
 	void startMessage() {
 		std::cout << "Tic Tac Toe" << std::endl << std::endl;
@@ -156,7 +157,6 @@ public:
 };
 
 int main() {
-	const int hatvankilenc = 69;
 	Board board;
 	board.startMessage();
 	board.roundControl();
